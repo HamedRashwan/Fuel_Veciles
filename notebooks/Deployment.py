@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd 
 import joblib 
 
-model=joblib.load('feul_model.h5')
-scaler=joblib.load('feulscaler.h5')
+model=joblib.load(r'C:\Users\Hamed\Downloads\Fuel_Veciles\notebooks\feul_model.h5')
+scaler=joblib.load(r'C:\Users\Hamed\Downloads\Fuel_Veciles\notebooks\feulscaler.h5')
 
 st.title('Feul Veclies Streamlit App')
 st.info('just building a testing app for out ml model ')
